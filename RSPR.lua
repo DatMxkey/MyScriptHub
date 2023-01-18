@@ -1,4 +1,4 @@
- if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 then 
+ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 286090429 or 537413528 or 3851622790 then 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     local Window = OrionLib:MakeWindow({Name = "RSPR | SCRIPT HUB ⚡", HidePremium = false, IntroText = "LOADING", SaveConfig = true, ConfigFolder = "OrionTest"})
  -- TABS   
@@ -23,10 +23,21 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
  
     local BABFT = Window:MakeTab({
-        Name = "Build A Boat!",
+        Name = "Build A Boat",
         Icon = "rbxassetid://11981759994",
         PremiumOnly = false
     })
+
+
+
+    local BIS = Window:MakeTab({
+        Name = "Break In",
+        PremiumOnly = false
+    })
+
+
+
+
 
 
 
@@ -68,6 +79,14 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
                    end    
     })
     
+
+
+    BIS:AddButton({
+        Name = "Break in HUB",
+        Callback = function()
+                  local execute loadstring(game:HttpGet("https://raw.githubusercontent.com/Nikita365/Break-In-Story-/main/Break%20In%20Story%20Hub"))()  
+                   end    
+    })
     
 
 
@@ -77,4 +96,4 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 end
     OrionLib:Init() 
     
--- DONT DO ANYTHING UNDER HERE!!!!!!
+-- DO NOT EDIT ANYTHING UNDER HERE!
