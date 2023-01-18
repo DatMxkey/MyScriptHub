@@ -4,13 +4,13 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
  -- TABS   
     local Bedwars = Window:MakeTab({
         Name = "Bedwars",
-        Icon = "rbxassetid://4483345998",
+        Icon = "rbxassetid://9452060784",
         PremiumOnly = false
     })
 
     local Survival = Window:MakeTab({
         Name = "Survival Game",
-        Icon = "rbxassetid://4483345998",
+        Icon = "rbxassetid://8117957804",
         PremiumOnly = false
     })
 
@@ -40,4 +40,4 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 end
     OrionLib:Init() 
     
-
+-- go to chat
