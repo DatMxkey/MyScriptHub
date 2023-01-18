@@ -32,7 +32,11 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
     })
 
 
-
+    local Doors = Window:MakeTab({
+        Name = "Doors",
+        Icon = "rbxassetid://10799441537",
+        PremiumOnly = false
+    })
 
 
 
@@ -89,7 +93,12 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 
     
--- me need to wait an hour
+    Doors:AddButton({
+        Name = "Vynixius Doors",
+        Callback = function()
+           local execute loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+                   end    
+    })
 
 
 
