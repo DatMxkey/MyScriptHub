@@ -7,7 +7,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
         Icon = "rbxassetid://9452060784",
         PremiumOnly = false
     })
-
+    
     local Survival = Window:MakeTab({
         Name = "Survival Game",
         Icon = "rbxassetid://8117957804",
@@ -37,6 +37,21 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
         Icon = "rbxassetid://10799441537",
         PremiumOnly = false
     })
+
+
+
+
+    local PSX = Window:MakeTab({
+        Name = "Pet Simulator X",
+        PremiumOnly = false
+    })
+
+
+
+
+
+
+
 
 
 
@@ -100,11 +115,16 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
                    end    
     })
 
-
+    PSX:AddButton({
+        Name = "Huge Games",
+        Callback = function()
+           local execute loadstring(game:HttpGet("https://hugegames.io/script"))()
+                   end    
+    })
 
 
 
 end
     OrionLib:Init() 
     
--- DO NOT EDIT ANYTHING UNDER HERE! 
+-- DO NOT EDIT ANYTHING UNDER HERE!
