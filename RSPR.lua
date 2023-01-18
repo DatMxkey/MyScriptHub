@@ -37,7 +37,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 
 
-
 -- Buttons
 
 
@@ -78,7 +77,19 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
                   local execute loadstring(game:HttpGet("https://raw.githubusercontent.com/Nikita365/Break-In-Story-/main/Break%20In%20Story%20Hub"))()  
                    end    
     })
+
+
+    BIS:AddButton({
+        Name = "Break in 2",
+        Callback = function()
+           local execute loadstring(game:HttpGet("https://pastebin.com/raw/WkQmzKuJ"))()
+                   end    
+    })
+
+
+
     
+-- me need to wait an hour
 
 
 
@@ -87,4 +98,4 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 end
     OrionLib:Init() 
     
--- DO NOT EDIT ANYTHING UNDER HERE!
+-- DO NOT EDIT ANYTHING UNDER HERE! 
