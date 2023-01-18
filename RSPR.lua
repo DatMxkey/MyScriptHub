@@ -21,7 +21,12 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
         PremiumOnly = false
     })
 
-
+ 
+    local BABFT = Window:MakeTab({
+        Name = "Build A Boat!",
+        Icon = "rbxassetid://11981759994",
+        PremiumOnly = false
+    })
 
 
 
@@ -56,8 +61,20 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 
 
+    BABFT:AddButton({
+        Name = "Vynixius",
+        Callback = function()
+                  local execute loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()   
+                   end    
+    })
+    
+    
+
+
+
+
 
 end
     OrionLib:Init() 
     
--- dont do anything under here !!!!
+-- DONT DO ANYTHING UNDER HERE!!!!!!
