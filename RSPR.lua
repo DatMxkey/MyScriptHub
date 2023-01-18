@@ -1,6 +1,6 @@
- if Game.PlaceId == 8752056405 or 8737602449 then 
+ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 then 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "RSPR | SCRIPT HUB", HidePremium = false, IntroText = "LOADING", SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Window = OrionLib:MakeWindow({Name = "RSPR | SCRIPT HUB ⚡", HidePremium = false, IntroText = "LOADING", SaveConfig = true, ConfigFolder = "OrionTest"})
  -- TABS   
     local Bedwars = Window:MakeTab({
         Name = "Bedwars",
@@ -13,6 +13,18 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
         Icon = "rbxassetid://8117957804",
         PremiumOnly = false
     })
+
+
+    local Arsenal = Window:MakeTab({
+        Name = "Arsenal",
+        Icon = "rbxassetid://7699371504",
+        PremiumOnly = false
+    })
+
+
+
+
+
 
 -- Buttons
 
@@ -35,9 +47,17 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
     })
 
 
+    Arsenal:AddButton({
+        Name = "VG hub",
+        Callback = function()
+                  local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()     
+                   end    
+    })
+
+
 
 
 end
     OrionLib:Init() 
     
--- go to chat
+-- dont do anything under here !!!!
