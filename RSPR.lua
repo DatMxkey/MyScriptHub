@@ -87,7 +87,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 
   
-    
+
 
 
     BIS:AddButton({
@@ -122,9 +122,23 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
                    end    
     })
 
+    
+
+
+    PSX:AddButton({
+        Name = "Milky Hub",
+        Callback = function()
+           local execute loadstring(game:HttpGet("https://raw.githubusercontent.com/Flxry/Main/MilkyHub/Pet%20Simulator%20X"))()
+                   end    
+    })
+
+
+
+
+
 
 
 end
     OrionLib:Init() 
     
--- DO NOT EDIT ANYTHING UNDER HERE!
+-- DO NOT EDIT ANYTHING UNDER HERE!!!!!!!!!!!!!!!!!!!!!!!
