@@ -36,8 +36,11 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
 
 
 
-
-
+        local BLD = Window:MakeTab({
+            Name = "Build A Boat For Treasure",
+            Icon = "rbxassetid://11981759994",
+            PremiumOnly = false
+        })
 
 
 
@@ -70,6 +73,37 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
     
     
     
+        local BREAK = Window:MakeTab({
+            Name = "Jail Break!",
+            PremiumOnly = false
+        })
+
+
+
+
+
+        local NJ = Window:MakeTab({
+            Name = "Ninja Legends",
+            PremiumOnly = false
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
     
@@ -102,6 +136,32 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
     
     
         Adopt:AddButton({
+            Name = "VG hub",
+            Callback = function()
+                      local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()     
+                       end    
+        })
+
+
+        BLD:AddButton({
+            Name = "VG hub",
+            Callback = function()
+                      local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()     
+                       end    
+        })
+
+
+        NJ:AddButton({
+            Name = "VG hub",
+            Callback = function()
+                      local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()     
+                       end    
+        })
+
+
+
+
+        BREAK:AddButton({
             Name = "VG hub",
             Callback = function()
                       local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()     
@@ -161,20 +221,26 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
 
 
 
+
+       
+        
+
+
+
+    
+    
+    
+    
+    
+
+    
+
+
+
+    
+
+    
     end
-    
-    
-    
-    
-
-    
-
-
-
-    
-
-    
-    
     
         OrionLib:Init() 
         
