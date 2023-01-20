@@ -48,6 +48,11 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 
 
+    local PLS = Window:MakeTab({
+        Name = "Pls Donate",
+        PremiumOnly = false
+    })
+
 
 
 
@@ -129,8 +134,33 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
            local execute loadstring(game:HttpGet("https://raw.githubusercontent.com/Flxry/Main/MilkyHub/Pet%20Simulator%20X"))()
                    end    
     })
-    
+
 end
+
+
+
+
+PLS:AddButton({
+    Name = "tzechco",
+    Callback = function()
+       local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/tzechco/roblox-scripts/main/PLS%20DONATE/autofarm.lua'))()
+               end    
+})
+
+end
+
+
+
+
+
+
+
+
+
     OrionLib:Init() 
     
+
+
+
+
 -- DO NOT EDIT ANYTHING UNDER HERE!!!!!!!!!!!!!!!!!!!!!!!  
