@@ -151,6 +151,18 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
         })
 
 
+
+        BLD:AddButton({
+            Name = "Ruby Hub",
+            Callback = function()
+                      local execute loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/BABFT/main/Ruby%20Hub", true))()   
+                       end    
+        })
+
+
+
+
+
         NJ:AddButton({
             Name = "VG hub",
             Callback = function()
