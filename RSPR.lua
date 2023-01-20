@@ -161,6 +161,26 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
 
 
 
+        BLD:AddButton({
+            Name = "Treasure.exe",
+            Callback = function()
+                      local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+                       end    
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         NJ:AddButton({
