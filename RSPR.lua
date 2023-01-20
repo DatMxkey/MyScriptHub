@@ -91,7 +91,10 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
 
 
 
-
+        local BF = Window:MakeTab({
+            Name = "Blox Fruits",
+            PremiumOnly = false
+        })
 
 
 
@@ -173,7 +176,12 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
 
 
 
-
+        BF:AddButton({
+            Name = "Blox Fruit Script",
+            Callback = function()
+                      local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+                       end    
+        })
 
 
 
