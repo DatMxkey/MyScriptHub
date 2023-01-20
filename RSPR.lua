@@ -48,15 +48,13 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
     
     
     
- 
     
     
-    
-    
-    
+
     
     
     -- Buttons
+
         Bedwars:AddButton({
             Name = "Vxpe V4",
             Callback = function()
@@ -130,28 +128,22 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
                        end    
         })
     
+
+
+
+
     end
     
     
     
     
-    DONATE:AddButton({
-        Name = "tzechco",
-        Callback = function()
-           local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/tzechco/roblox-scripts/main/PLS%20DONATE/autofarm.lua'))()
-                   end    
-    })
+
     
 
 
 
     
-    
-    
-    
-    
-    
-    
+
     
     
     
