@@ -23,6 +23,26 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
     
      
     
+
+
+        local Adopt = Window:MakeTab({
+            Name = "Adopt Me!",
+            Icon = "rbxassetid://7366893690",
+            PremiumOnly = false
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
@@ -81,7 +101,16 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
         })
     
     
-    
+        Adopt:AddButton({
+            Name = "VG hub",
+            Callback = function()
+                      local execute loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()     
+                       end    
+        })
+
+
+
+
       
     
     
