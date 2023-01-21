@@ -302,7 +302,12 @@ if Game.PlaceId == 8752056405 or 8737602449 or 6872265039 or 11156779721 or 2860
 
 
 
-       
+        PLZ:AddButton({
+            Name = "Tezcho",
+            Callback = function()
+               local execute loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+                       end    
+        })
         
 
 
